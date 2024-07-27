@@ -1,0 +1,175 @@
+.footer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.footer-heading-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-heading {
+  display: flex;
+  color: #333;
+  font-size: 20px;
+  
+}
+
+.symbol img {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-link {
+  font-size: medium;
+
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links .more {
+  color:rgb(0, 120, 130);
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-more {
+  color: rgb(0, 120, 130);
+  cursor: pointer;
+}
+
+.footer-info, .footer-brands, .footer-accessibility, .footer-copyright {
+  text-align: left;
+  margin: 20px 0;
+  font-size: small;
+  width: 60%
+}
+.footer-info span a{
+  font-weight: bold;
+  color: rgb(0, 120, 130);
+}
+.footer-info a{
+  color: rgb(0, 120, 130);
+
+}
+
+.footer-brands{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+   
+    font-size: small;
+    
+}
+.footer-brands p{
+
+  font-size: 12px;
+  width: 25%;
+}
+
+.footer-brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-left: -7%;
+}
+
+.footer-brand-list li {
+  margin: 0 10px;
+}
+.footer-brand-list li span {
+  color: rgb(0, 120, 130);
+
+}
+.footer-accessibility p{
+  font-size: small;
+}
+
+.footer-accessibility p span a{
+  color: rgb(0, 120, 130);
+}
+
+.footer-copyright p{
+  font-size: small;
+}
+.footer-copyright p a{
+  color: black;
+}
+.footer-image {
+  text-align: center;
+  margin-top: 20px;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+    
+  }
+
+  .footer-brand-list {
+    flex-direction: row;
+    margin-left: 4%;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+
+  .footer-links li {
+    list-style: disc;
+    text-align: center;
+    margin-bottom: 5px;
+   font-size: medium;
+  }
+
+  .footer-links a {
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,152 @@
+.carousel-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .text-container {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+  }
+
+  .slider-container{
+    margin: 20px;
+  }
+
+  .big{
+    
+overflow: hidden;
+position: relative;
+  display: inline-block;
+  }
+  img{
+    display: block; /* Removes the bottom space below the image */
+  width: 100%;
+  }
+  .image-heading {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    color: white; /* Ensure the text is visible */
+    padding: 5px; /* Optional: Padding around the heading */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .image-button {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    background-color: white; /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px; /* Button padding */
+    border-radius: 10px;
+    cursor: pointer; /* Change cursor to pointer */
+  }
+ 
+
+  .bigImage{
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    
+    transition: transform 0.3s ease; 
+  }
+  
+  .bigImage:hover{
+    transform: scale(1.1);
+  }
+
+  .small{
+    overflow: hidden;
+    display: block; /* Removes the bottom space below the image */
+  width: 100%;
+  }
+  .smallImage{
+    width: 250px;
+    height: 190px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  .smallImage:hover{
+    transform: scale(1.1);
+
+  }
+
+  .small .text{
+     /* Optional padding */
+    width: 250px;
+    height: 190px; /* Full width to align with the image */
+    overflow: hidden; /* Hide any overflow content */
+  padding: 10px; /* Optional: Adds padding inside the container */
+  box-sizing: border-box; /* Ensures padding is included in width and height */
+  /* Optional: Adds a border for better visibility */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  border-radius: 10px;
+  }
+  .text1{
+    background-color: #555;
+  }
+  .text2{
+    background-color:rgb(20, 66, 37);
+
+  }
+  .text3{
+    background-color:rgb(5, 34, 134);
+  }
+  .text4{
+    background-color:rgb(12, 150, 139);
+  }
+ .heading, .subheading {
+    margin: 0; 
+    color: white;
+    /* Removes default margin */
+  }
+  
+  .heading {
+    font-size: 1.2em; /* Adjust font size as needed */
+  }
+  
+  .subheading {
+    font-size: 1em; /* Adjust font size as needed */
+  }
+  
+  .paragraph {
+    color: white;
+
+    font-size: 0.9em; /* Adjust font size as needed */
+    margin: 0; /* Removes default margin */
+    overflow: hidden; /* Hides overflow content */
+    text-overflow: ellipsis; /* Adds ellipsis for overflow text */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    white-space: normal; /* Allows text to wrap */
+  }
+
+ @media (max-width: 996px) {
+  .slider-container{
+  font-size: larger;
+    margin-left: 10%;
+    padding: 10px;
+   width: 100%;
+  }
+  }
+  @media (max-width: 600px) {
+    .slider-container{
+      margin-left: 30%;
+      padding: 10px;
+     width: 100vh;
+    }
+    }
