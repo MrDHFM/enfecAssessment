@@ -13,7 +13,6 @@ const Carousel = () => {
         <p>Take a deep dive and browse homes for sale, original neighborhood photos, resident <br />reviews and local insights to find what is right for you.</p>
       </div>
       <div>
-        Carousel
       </div>
 
     </div>
