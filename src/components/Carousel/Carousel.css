@@ -28,28 +28,28 @@ position: relative;
   display: inline-block;
   }
   img{
-    display: block; /* Removes the bottom space below the image */
+    display: block; 
   width: 100%;
   }
   .image-heading {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    left: 10px; /* Adjust as needed */
-    color: white; /* Ensure the text is visible */
-    padding: 5px; /* Optional: Padding around the heading */
-    margin: 0; /* Remove default margin */
+    top: 10px; 
+    left: 10px; 
+    color: white; 
+    padding: 5px; 
+    margin: 0; /
   }
   
   .image-button {
     position: absolute;
-    bottom: 10px; /* Adjust as needed */
-    left: 10px; /* Adjust as needed */
-    background-color: white; /* Button background color */
-    color: black; /* Button text color */
-    border: none; /* Remove default border */
-    padding: 10px; /* Button padding */
+    bottom: 10px; 
+    left: 10px; 
+    background-color: white; 
+    color: black; 
+    border: none; 
+    padding: 10px; 
     border-radius: 10px;
-    cursor: pointer; /* Change cursor to pointer */
+    cursor: pointer; 
   }
  
 
@@ -67,7 +67,7 @@ position: relative;
 
   .small{
     overflow: hidden;
-    display: block; /* Removes the bottom space below the image */
+    display: block; 
   width: 100%;
   }
   .smallImage{
@@ -82,13 +82,12 @@ position: relative;
   }
 
   .small .text{
-     /* Optional padding */
+    
     width: 250px;
-    height: 190px; /* Full width to align with the image */
-    overflow: hidden; /* Hide any overflow content */
-  padding: 10px; /* Optional: Adds padding inside the container */
-  box-sizing: border-box; /* Ensures padding is included in width and height */
-  /* Optional: Adds a border for better visibility */
+    height: 190px; 
+    overflow: hidden; 
+  padding: 10px; 
+  box-sizing: border-box; 
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -111,28 +110,27 @@ position: relative;
  .heading, .subheading {
     margin: 0; 
     color: white;
-    /* Removes default margin */
   }
   
   .heading {
-    font-size: 1.2em; /* Adjust font size as needed */
+    font-size: 1.2em; 
   }
   
   .subheading {
-    font-size: 1em; /* Adjust font size as needed */
+    font-size: 1em; 
   }
   
   .paragraph {
     color: white;
 
-    font-size: 0.9em; /* Adjust font size as needed */
-    margin: 0; /* Removes default margin */
-    overflow: hidden; /* Hides overflow content */
-    text-overflow: ellipsis; /* Adds ellipsis for overflow text */
+    font-size: 0.9em; 
+    margin: 0; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
     display: -webkit-box;
-    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-line-clamp: 3; 
     -webkit-box-orient: vertical;
-    white-space: normal; /* Allows text to wrap */
+    white-space: normal; 
   }
 
  @media (max-width: 996px) {

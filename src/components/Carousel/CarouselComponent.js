@@ -23,7 +23,6 @@ const PrevArrow = (props) => {
         textAlign: "center",
         lineHeight: "22.5px",
         cursor: "pointer",
-         // Position from the left
         top: "50%",
         transform: "translateY(-50%)",
       }}
@@ -51,7 +50,7 @@ const NextArrow = (props) => {
         textAlign: "center",
         lineHeight: "22.5px",
         cursor: "pointer",
-        right: "10px", // Position from the right
+        right: "10px", 
         top: "50%",
         transform: "translateY(-50%)",
       }}

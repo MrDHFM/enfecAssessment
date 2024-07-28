@@ -14,7 +14,6 @@ const Footer = () => {
       </div>
 
       <div className="footer-columns">
-        {/* Column 1 */}
         <div className="footer-column">
           <h2 className="footer-link">Real Estate Markets</h2>
           <ul className="footer-links">
@@ -26,8 +25,6 @@ const Footer = () => {
             <li><a className='more' href="#">More<span className="symbol ">↓</span></a></li>
           </ul>
         </div>
-
-        {/* Column 2 */}
         <div className="footer-column">
           <h2 className="footer-link">Popular Searches</h2>
           <ul className="footer-links">
@@ -39,8 +36,6 @@ const Footer = () => {
 
           </ul>
         </div>
-
-        {/* Column 3 */}
         <div className="footer-column">
           <h2 className="footer-link">Explore Trulia</h2>
           <ul className="footer-links">
@@ -52,8 +47,6 @@ const Footer = () => {
 
           </ul>
         </div>
-
-        {/* Column 4 */}
         <div className="footer-column">
           <h2 className="footer-link">For Professionals</h2>
           <ul className="footer-links">
